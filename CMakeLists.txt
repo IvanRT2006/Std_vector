@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(std_vector)
+project(graph_project)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDART 11)
 
-add_executable(test std_vector.c)
+file(GLOB SOURCES "*.c")
 
-# Optionally, to link against libraries
-# target_link_libraries(test <library_name>)
+file(GLOB HEADERS "*.h")
+
+add_executable(graph_app ${SOURCES} ${HEADERS})

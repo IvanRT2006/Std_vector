@@ -1,0 +1,3 @@
+/home/ivan/Std/build/CMakeFiles/test.dir
+/home/ivan/Std/build/CMakeFiles/edit_cache.dir
+/home/ivan/Std/build/CMakeFiles/rebuild_cache.dir

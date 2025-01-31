@@ -1,16 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <string.h>
-#include <assert.h>
-
-typedef struct {
-    void *data;
-    size_t size;
-    size_t capacity;
-    size_t element_size;
-} Vector;
-
+#include "std_vector.h"
 
 Vector CreateVtor (size_t initial_capacity, size_t element_size)
 {
@@ -193,9 +181,4 @@ void RunTests()
     VectorDestroy(&str_vec);
 }
 
-int main()
-{
-    RunTests();
-    printf("All tests passed!\n");
-    return 0;
-}
+
